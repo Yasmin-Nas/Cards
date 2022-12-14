@@ -1,85 +1,28 @@
 {
-   "ingredientes": [
-      
-       {
-           "id": 16,
-           "nome": "Morango com chocolate",
-           "acompanhamentos": "Chocolate coberto com morango."
-       },
-       {
-           "id": 15,
-           "nome": "Romeu e Julieta",
-           "acompanhamentos": "Goiabada com mussarela ou catupiry."
-       },
-       {
-           "id": 14,
-           "nome": "Prestígio",
-           "acompanhamentos": "Brigadeiro tradicional e coco ralado."
-       },
-       {
-           "id": 13,
-           "nome": "Beijinho",
-           "acompanhamentos": "Mussarela, leite condensado, coco e chocolate branco."
-       },
-       {
-           "id": 12,
-           "nome": "Banana",
-           "acompanhamentos": "Banana, açúcar com canela, flambado com rum e licor de cassis."
-       },
-       {
-           "id": 11,
-           "nome": "Pepperoni",
-           "acompanhamentos": "Queji, oregano e pepperoni."
-       },
-       {
-           "id": 10,
-           "nome": "Portuguesa",
-           "acompanhamentos": "Queijo, presunto, ovo de codorna, azeitona preta, cebola, oregano e pimentão verde."
-       },
-       {
-           "id": 9,
-           "nome": "Bauru",
-           "acompanhamentos": "Queijo, presunto, requijão, oregano e tomate."
-       },
-       {
-           "id": 8,
-           "nome": "Calabresa",
-           "acompanhamentos": "Calabresa, cebola e azeitonas roxas"
-       },
-       {
-           "id": 7,
-           "nome": "Frango com Catupiry",
-           "acompanhamentos": "Frango desfiado coberto com catupiry"
-       },
-       {
-           "id": 6,
-           "nome": "Marguerita",
-           "acompanhamentos": "Molho de tomate, muçarela, parmesão e manjericão."
-       },
-       {
-           "id": 5,
-           "nome": "Siciliana",
-           "acompanhamentos": "Molho de tomate, calabresa, champignon, mussarela e orégano."
-       },
-       {
-           "id": 4,
-           "nome": "Quatro Queijos",
-           "acompanhamentos": "Molho de tomate, mussarela, provolone, catupiry, parmesão e orégano."
-       },
-       {
-           "id": 3,
-           "nome": "Toscana",
-           "acompanhamentos": "Molho de Tomate, calabresa, mussarela, vinagre e orégano"
-       },
-       {
-           "id": 2,
-           "nome": "Atum",
-           "acompanhamentos": "Molho de tomate, muçarela, atum sólido, cebola roxa e orégano."
-       },
-       {
-           "id": 1,
-           "nome": "Mussarela",
-           "acompanhamentos": "Queijo e Tomate"
-       }
-   ]
+    "promocoes": [
+        {
+            "id": 5,
+            "prazo": "2023-01-01T00:00:00.000Z",
+            "nome": "Pague duas, leve três",
+            "descricao": "Na compra de duas pizzas salgadas, ganhe uma doce."
+        },
+        {
+            "id": 4,
+            "prazo": "2023-01-01T00:00:00.000Z",
+            "nome": "Desconto na primeira conta",
+            "descricao": "Ganhe 10% de desconto na sua primeira compra."
+        },
+        {
+            "id": 3,
+            "prazo": "2023-01-01T00:00:00.000Z",
+            "nome": "Duas pizzas e Refrigerante",
+            "descricao": "Na compra de uma pizza salgada e uma doce, ganhe um refrigerante dois litros."
+        },
+        {
+            "id": 2,
+            "prazo": "2023-01-01T00:00:00.000Z",
+            "nome": "Frete Grátis",
+            "descricao": "Em compras acima de R$85,00, ganhe frete grátis"
+        }
+    ]
 }

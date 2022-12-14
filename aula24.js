@@ -2,7 +2,7 @@
 
 // ELEMENTOS DA 1a CARTA APENAS
 let nome          = document.querySelector('#nome')
-let acompanhamentos = document.querySelector('#acompanhamentos')
+let descricao = document.querySelector('#descricao')
 
 
 // section que acomoda todas as cartas
@@ -21,7 +21,7 @@ function pegarDados(i) {
         }
        
     
-        let qtdPizza = (dados.ingredientes.length)
+        let qtdPromocoes = (dados.promocoes.length)
         
         // passe o valor de i no parametro
         atribuirDados2(dados, i)
@@ -32,23 +32,23 @@ function pegarDados(i) {
 // ela so funciona se for chamada dentro da funcao pegarDados
 function atribuirDados(dados, i) {
    
-    nome.textContent          = dados.ingredientes[i].nome
-    acompanhamentos.textContent = dados.ingredientes[i].acompanhamentos
+    nome.textContent          = dados.promocoes[i].nome
+    descricao.textContent = dados.promocoes[i].descricao
    
 }
 
 // SELECIONAR TODOS OS CARDS por class
 
-let nomesPizza      = document.getElementsByClassName('nome')
-let nomeAcompanhamentos = document.getElementsByClassName('acompanhamentos')
+let nomesPromocoes      = document.getElementsByClassName('nome')
+let nomeDescricao = document.getElementsByClassName('descricao')
 
 // ATRIBUIR DADOS PARA TODOS OS CARDs
 // Selecionamos eles por class, com isso temos um array para cada elemento
 // agora vamos atribuir para cada posicao os valores que pegamos
 function atribuirDados2(dados, i) {
     
-    nomesPizza[i].textContent         = dados.ingredientes[i].nome
-nomeAcompanhamentos [i].textContent = dados.ingredientes[i].acompanhamentos
+nomesPromocoes[i].textContent         = dados.promocoes[i].nome
+nomeDescricao [i].textContent = dados.promocoes[i].descricao
  
 }
 
@@ -65,16 +65,16 @@ function desenharCarta(id) {
    
 
     // NOME 
-    let nomesPizza = document.createElement("h2")
-    nomesPizza.setAttribute('class', 'nome')
-    carta.appendChild(nomesPizza)
-    nomesPizza.textContent = "Nome"
+    let nomesPromocoes = document.createElement("h2")
+    nomesPromocoes.setAttribute('class', 'nome')
+    carta.appendChild(nomesPromocoes)
+    nomesPromocoes.textContent = "Nome"
 
     // ACOMPANHAMENTOS
-    let nomeAcompanhamentos = document.createElement("h3")
-    nomeAcompanhamentos.setAttribute('class', 'acompanhamentos')
-    carta.appendChild(nomeAcompanhamentos)
-    nomeAcompanhamentos.textContent = "acompanhamentos"
+    let nomeDescricao = document.createElement("h3")
+    nomeDescricao.setAttribute('class', 'descricao')
+    carta.appendChild(nomeDescricao)
+    nomeDescricao.textContent = "descricao"
 
     
 
@@ -86,22 +86,10 @@ pegarDados(0)
 
 // 2a carta em diante desenhamos em tela usando as funcoes
 //desenharCarta(0)
+
 desenharCarta(1)
 desenharCarta(2)
 desenharCarta(3)
-desenharCarta(4)
-desenharCarta(5)
-desenharCarta(6)
-desenharCarta(7)
-desenharCarta(8)
-desenharCarta(9)
-desenharCarta(10)
-desenharCarta(11)
-desenharCarta(12)
-desenharCarta(13)
-desenharCarta(14)
-desenharCarta(15)
-
 
 
 
